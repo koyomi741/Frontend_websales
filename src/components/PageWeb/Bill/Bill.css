@@ -1,0 +1,20 @@
+table, th {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 12px;
+}
+
+thead{
+    position: sticky;
+    top: -1px;
+}
+
+td,tr{
+    border:1px solid #ccc;
+    padding: 12px;
+}
+
+tr:hover {
+    background-color: rgba(0, 0, 0, .1);
+}

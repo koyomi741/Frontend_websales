@@ -1,0 +1,107 @@
+#body-payment {
+    margin: 106px auto 40px;
+    max-width: 1286px;
+    width: 90%;
+    padding: 20px;
+    height: max-content;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
+}
+
+.payment-header{
+    padding: 0.5rem 1rem;
+    font-size: 2rem;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.payment-user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background: rgba(0,0,0,.01);
+}
+
+.payment-user h3{
+    font-size: 20px;
+}
+
+.cartImage {
+    width: 40px !important;
+    height: auto;
+}
+
+.payment-table {
+    border-collapse: collapse;
+    width: 100%;
+    overflow: hidden scroll;
+    height: 60vh;
+    border: 1px solid #ddd;
+}
+
+.payment-method{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: rgba(0,0,0,.01);
+    padding: 20px 20px 40px;
+}
+
+.payment-method h2{
+    font-size: 26px;
+    width: 100%;
+}
+
+.payment-btn{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.payment-modal h3{
+    font-size: 26px;
+    width: 100%;
+}
+
+.payment-modal-bank{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.payment-time{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.payment-time span{
+    font-size: 16px;
+    color: #484848;
+}
+
+.billProduct{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+    background: rgba(0,0,0,.01);
+    border: 1px solid #ddd;
+}
+
+.billReview{
+    padding: 0 20px;
+}
+
+.review-rating{
+    width: 100%;
+}

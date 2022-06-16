@@ -1,0 +1,263 @@
+/* header */
+
+#headerSection {
+    color: #000;
+    background-color: #eee;
+}
+
+#headerSection .headerItem {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+.headerList{
+    margin: 0;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* body */
+#bodySection-p-detail {
+    /* width: 70% */
+    max-width: 1286px;
+    margin: 106px auto 40px;
+    background-color: #fff;
+}
+
+#bodySection-p-detail .bodyContainer {
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 0 150px; */
+    background-color: #eee;
+    gap: 20px;
+    padding: 20px;
+    padding-bottom: 40px;
+    justify-content: space-evenly;
+}
+
+.btn-back{
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+}
+
+#bodySection-p-detail .bodyContainer .link{
+    height: 40px;
+    min-width: 60px;
+    margin: 0;
+    background-color: #fff;
+    color: #000;
+}
+
+#bodySection-p-detail .bodyContainer .link:hover{
+    background-color: #f6de04;
+}
+
+#bodySection-p-detail .bodyContainer .image{
+    height: 70vh;
+    margin-left: 20px;
+}
+
+#bodySection-p-detail .bodyContainer .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.infomation{
+    margin-right: 20px;
+}
+
+#bodySection-p-detail .nameProduct {
+    font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: start;
+}
+
+#bodySection-p-detail .rate {
+    display: flex;
+    gap: 5px;
+    color: #f6de04;
+    margin-bottom: 10px;
+}
+
+#bodySection-p-detail .rateReviews {
+    vertical-align: middle;
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 10px; 
+    display: flex;
+}
+#bodySection-p-detail .priceProduct {
+    color: red;    
+    font-family: "Karla", Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#bodySection-p-detail .describeProduct {
+    display: flex;
+    text-align: left;
+}
+
+#bodySection-p-detail .colorProduct {
+    display: flex;
+    text-align: left;
+}
+#bodySection-p-detail .color {
+    font-size: 0;
+    width: 25px;
+    height: 25px;
+    border-bottom: none;
+    border-radius: 50%;
+    background-size: cover;
+    background-color: black;
+    margin: 10px 0; 
+}
+
+#bodySection-p-detail .sizeProduct {
+    text-align: left;
+}
+
+#bodySection-p-detail .size {
+    padding: 0 3px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 2px;
+    margin: 0 10px;
+}
+
+#bodySection-p-detail .size:hover {
+    background-color: #f6de04;
+}
+
+#bodySection-p-detail .quantityProduct {
+    text-align: left;
+    margin-top: 30px;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#bodySection-p-detail .boxButton {
+    border: 1px solid #fff;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+#bodySection-p-detail .btQuantity {
+    border: 1px solid #E0E0E0;
+    color: #000;
+    background-color: #f9f9f9;
+    width: 30px;
+    font-size: 23px;
+
+}
+
+#bodySection-p-detail .btQuantity:hover {
+    background-color: #fff;
+}
+
+#bodySection-p-detail .numberQuantity {
+    margin: 0 10px;
+    font-size: 23px;
+    line-height: 35px;
+}
+
+#bodySection-p-detail .btAdd {
+    background-color: #000;
+    margin-left: 30px;
+    color: #fff;
+    padding: 0 20px;
+    transition: all 0.2s linear;
+}
+
+#bodySection-p-detail .btAdd:hover {
+    opacity: .7;
+}
+
+#bodySection-p-detail .line {
+    margin: 30px 0;
+    width: 100%;
+    height: 1px;
+    background-color: #848484;
+}
+
+#bodySection-p-detail .contact {
+    
+}
+
+#bodySection-p-detail .wishlist {
+    border-width: 0;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: red; */
+}
+
+#bodySection-p-detail .wishlist:hover {
+    /* color:#179a94;     */
+  
+}
+
+#bodySection-p-detail .textWishlist{
+    margin: 0 5px;
+    line-height: 18px;
+}
+
+#bodySection-p-detail .boxIcon {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px  5px;
+}
+#bodySection-p-detail .footerIcon {
+    margin-right: 10px;
+}
+
+.comment{
+    text-align: start;
+    background: #eee;
+    padding: 20px 100px 30px;
+    max-width: 1286px;
+    margin: 0 auto 70px;
+}
+
+.comment-user{
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-left: 10px;
+}
+
+.comment-title{
+    padding: 10px 0 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.comment-user .nameUser{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.comment-user .startsUser{
+    display: flex;
+    gap: 5px;
+    color: #f6de04;
+    margin-bottom: 10px;
+}
+
+.comment-user .descUser{
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 10px;
+}
+

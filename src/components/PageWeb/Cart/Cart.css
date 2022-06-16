@@ -1,0 +1,87 @@
+body{
+    margin-top:20px;
+    background:#eee;
+}
+.ui-w-40 {
+    height: 100px !important;
+}
+
+.card{
+    box-shadow: 0 1px 15px 1px rgba(52,40,104,.08);    
+}
+
+.ui-product-color {
+    display: inline-block;
+    overflow: hidden;
+    margin: .144em;
+    width: .875rem;
+    height: .875rem;
+    border-radius: 10rem;
+    -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,0.15) inset;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.15) inset;
+    vertical-align: middle;
+}
+
+.media{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.media-body{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.media-body a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+
+}
+
+.media-body a:hover{
+    text-decoration: underline;
+    color: #f2cd16;
+}
+
+.table-responsive{
+    height: 60vh;
+    overflow: hidden scroll;
+    border: 1px solid #ddd;
+}
+
+.card{
+    padding-top: 20px;
+}
+
+.btn-remove{
+    font-size: 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.total-payment{
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.total-payment-btn{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-color-yellow{
+    background-color: #f2cd16 !important;
+    color: white !important;
+    opacity: .9;
+}
+
+.btn-color-yellow:hover{
+    opacity: 1;
+}

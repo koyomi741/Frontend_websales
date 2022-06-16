@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "client_id": 2,
+        "user": {
+            "id": 2,
+            "fullname": "Bùi Cảnh Nhuận",
+            "dob": "20/07/2001",
+            "gender": "Nam",
+            "phone": "0329689087",
+            "address": "Phú Thọ",
+            "username": "nhuan1",
+            "password": "12345",
+            "isAdmin": 0,
+            "note": ""
+        },
+        "product_id": 10,
+        "product": {
+            "id": 10,
+            "nameProduct": "Áo thun đen có hình",
+            "model": "Áo",
+            "image": "https://firebasestorage.googleapis.com/v0/b/test-62604.appspot.com/o/img10.jpg?alt=media&token=5ed15472-a5c4-402e-b0a7-ee38f0351fc2",
+            "price": 200000,
+            "describes": "Chất liệu vải mềm, mặc thoải mái",
+            "color": "Đen"
+        },
+        "extraDate": "5/5/2022",
+        "quatity": 2
+    },
+    {
+        "id": 2,
+        "client_id": 2,
+        "user": {
+            "id": 2,
+            "fullname": "Bùi Cảnh Nhuận",
+            "dob": "20/07/2001",
+            "gender": "Nam",
+            "phone": "0329689087",
+            "address": "Phú Thọ",
+            "username": "nhuan1",
+            "password": "12345",
+            "isAdmin": 0,
+            "note": ""
+        },
+        "product_id": 12,
+        "product": {
+            "id": 12,
+            "nameProduct": "Áo thun đen có hình",
+            "model": "Áo",
+            "image": "https://firebasestorage.googleapis.com/v0/b/test-62604.appspot.com/o/img12.jpg?alt=media&token=06d71b24-91b9-42b1-94a8-487ee66dc99d",
+            "price": 200000,
+            "describes": "Chất liệu vải vải mềm, mặc thoải mái",
+            "color": "Đen"
+        },
+        "extraDate": "5/5/2022",
+        "quatity": 2
+    },
+    {
+        "id": 3,
+        "client_id": 2,
+        "user": {
+            "id": 2,
+            "fullname": "Bùi Cảnh Nhuận",
+            "dob": "20/07/2001",
+            "gender": "Nam",
+            "phone": "0329689087",
+            "address": "Phú Thọ",
+            "username": "nhuan1",
+            "password": "12345",
+            "isAdmin": 0,
+            "note": ""
+        },
+        "product_id": 13,
+        "product": {
+            "id": 13,
+            "nameProduct": "Áo thun đen có logo màu sắc",
+            "model": "Áo",
+            "image": "https://firebasestorage.googleapis.com/v0/b/test-62604.appspot.com/o/img13.jpg?alt=media&token=07ddd838-6446-4a37-ad28-df92f02c1bb6",
+            "price": 200000,
+            "describes": "Chất liệu vải mềm, mặc thoải mái",
+            "color": "Đen"
+        },
+        "extraDate": "5/5/2022",
+        "quatity": 2
+    },
+    {
+        "id": 4,
+        "client_id": 2,
+        "user": {
+            "id": 2,
+            "fullname": "Bùi Cảnh Nhuận",
+            "dob": "20/07/2001",
+            "gender": "Nam",
+            "phone": "0329689087",
+            "address": "Phú Thọ",
+            "username": "nhuan1",
+            "password": "12345",
+            "isAdmin": 0,
+            "note": ""
+        },
+        "product_id": 15,
+        "product": {
+            "id": 15,
+            "nameProduct": "Áo thun đen có hình",
+            "model": "Áo",
+            "image": "https://firebasestorage.googleapis.com/v0/b/test-62604.appspot.com/o/img15.jpg?alt=media&token=8bd35820-078d-43e1-8669-c9d278c44b75",
+            "price": 200000,
+            "describes": "Chất liệu vải mềm, mặc thoải mái",
+            "color": "Đen"
+        },
+        "extraDate": "5/5/2022",
+        "quatity": 2
+    },
+    {
+        "id": 5,
+        "client_id": 2,
+        "user": {
+            "id": 2,
+            "fullname": "Bùi Cảnh Nhuận",
+            "dob": "20/07/2001",
+            "gender": "Nam",
+            "phone": "0329689087",
+            "address": "Phú Thọ",
+            "username": "nhuan1",
+            "password": "12345",
+            "isAdmin": 0,
+            "note": ""
+        },
+        "product_id": 16,
+        "product": {
+            "id": 16,
+            "nameProduct": "Áo thun đen hình báo",
+            "model": "Áo",
+            "image": "https://firebasestorage.googleapis.com/v0/b/test-62604.appspot.com/o/img16.jpg?alt=media&token=91be188d-b249-4260-b08a-13ff618f5482",
+            "price": 200000,
+            "describes": "Chất liệu vải mềm, mặc thoải mái",
+            "color": "Đen"
+        },
+        "extraDate": "5/5/2022",
+        "quatity": 2
+    }
+]
